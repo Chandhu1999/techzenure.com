@@ -1,0 +1,31 @@
+Odd numbers program in java ?
+
+
+import java.io.InputStream;
+import java.util.*;
+
+
+public class OddNumber {
+
+    public static void main (String[]args) {
+		Scanner sc = new Scanner(System.in);
+	      System.out.println("enter number a number.");
+	      int n = sc.nextInt();
+	      int i;
+	      System.out.println("Frist" +n+"Odd number.");
+	    
+	      for(i=1;i<=2*n;i++)
+	      {
+	    	  if(i%2 == 0)
+	    		  continue;
+	    	  else
+	    		  System.out.print(i);
+	      }
+	  
+
+	}
+
+
+	}
+
+}

@@ -1,0 +1,31 @@
+Bill generation ?
+import java.util.Scanner;
+
+public class BillGeneration {
+
+	public static void main(String[] args) {
+		{
+			Scanner s = new Scanner (System.in);
+			System.out.println("Bill details");
+			System.out.println("enter number of pizzas");
+			 int pizza = s.nextInt();
+			 
+			 System.out.println(" enternumber of fuffs");
+			 int fuffs = s.nextInt();
+			 System.out.println("enter number of cool drinks");
+			   int drinks = s.nextInt();
+			   
+			   System.out.println("pizza cost is:" +(pizza*100));
+			   System.out.println("fuffs cost is: " + (fuffs*20));
+			   System.out.println("drinks cost is" + (drinks*10));
+			      
+			      int a = pizza*100;
+			      int b = fuffs*20;
+			      int c = drinks *10;
+			      System.out.println("Total price is :" + (a+b+c));
+			      System.out.println("Enjoy the show !!!");
+		}
+
+	}
+
+}
